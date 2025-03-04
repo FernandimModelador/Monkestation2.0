@@ -34,3 +34,21 @@
 
 /// When [TOOL_ACT_TOOLTYPE_SUCCESS] or [TOOL_ACT_SIGNAL_BLOCKING] are set
 #define TOOL_ACT_MELEE_CHAIN_BLOCKING (TOOL_ACT_TOOLTYPE_SUCCESS | TOOL_ACT_SIGNAL_BLOCKING)
+
+// Shuttle pr start
+
+/// Return when an item interaction is successful.
+/// This cancels the rest of the chain entirely and indicates success.
+#define ITEM_INTERACT_SUCCESS (1<<0) // Same as TRUE, as most tool (legacy) tool acts return TRUE on success
+
+#define ITEM_INTERACT_BLOCKING (1<<1)
+
+/// Similar to [ITEM_INTERACT_SUCCESS], but does not necessarily indicate success.
+#define ITEM_INTERACT_BLOCKING (1<<1)
+	/// Only for people who get confused by the naming scheme
+	#define ITEM_INTERACT_FAILURE ITEM_INTERACT_BLOCKING
+/// Return to skip the rest of the interaction chain, going straight to attack.
+#define ITEM_INTERACT_SKIP_TO_ATTACK (1<<2)
+
+
+// NShuttle pr ends
