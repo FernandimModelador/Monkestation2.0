@@ -1,12 +1,12 @@
 // DM Environment file for tgstation.dme.
 // All manual changes should be made outside the BEGIN_ and END_ blocks.
-// New source code should be placed in .dm files: choose File/New --> Code File.
+// New source code should be placed in .dm files: choose File\New --> Code File.
 // BEGIN_INTERNALS
 // END_INTERNALS
 
 // BEGIN_FILE_DIR
 #define FILE_DIR .
-// END_FILE_DIR
+//END_FILE_DIR
 
 // BEGIN_PREFERENCES
 #define DEBUG
@@ -332,7 +332,7 @@
 #include "code\__DEFINES\dcs\signals\signals_light_eater.dm"
 #include "code\__DEFINES\dcs\signals\signals_medical.dm"
 #include "code\__DEFINES\dcs\signals\signals_mind.dm"
-#include "code/__DEFINES/dcs/signals/signals_lattice.dm"
+#include "code\__DEFINES\dcs\signals\signals_lattice.dm"
 #include "code\__DEFINES\dcs\signals\signals_mining.dm"
 #include "code\__DEFINES\dcs\signals\signals_mod.dm"
 #include "code\__DEFINES\dcs\signals\signals_modular_computer.dm"
@@ -1093,7 +1093,7 @@
 #include "code\datums\components\aquarium_content.dm"
 #include "code\datums\components\area_based_godmode.dm"
 #include "code\datums\components\area_sound_manager.dm"
-#include "code/datums/components/connect_inventory.dm"
+#include "code\datums\components\connect_inventory.dm"
 #include "code\datums\components\areabound.dm"
 #include "code\datums\components\armor_plate.dm"
 #include "code\datums\components\atmos_reaction_recorder.dm"
@@ -1107,7 +1107,7 @@
 #include "code\datums\components\blood_walk.dm"
 #include "code\datums\components\bloody_spreader.dm"
 #include "code\datums\components\bloodysoles.dm"
-#include "code/datums/components/custom_area.dm"
+#include "code\datums\components\custom_area.dm"
 #include "code\datums\components\boomerang.dm"
 #include "code\datums\components\breeding.dm"
 #include "code\datums\components\bullet_intercepting.dm"
@@ -1574,8 +1574,8 @@
 #include "code\datums\mapgen\_MapGenerator.dm"
 #include "code\datums\mapgen\CaveGenerator.dm"
 #include "code\datums\mapgen\JungleGenerator.dm"
-#include "code/datums/elements/shuttle_construction_lattice.dm"
-#include "code/datums/elements/shuttle_construction_turf.dm"
+#include "code\datums\elements\shuttle_construction_lattice.dm"
+#include "code\datums\elements\shuttle_construction_turf.dm"
 #include "code\datums\mapgen\biomes\_biome.dm"
 #include "code\datums\mapgen\Cavegens\IcemoonCaves.dm"
 #include "code\datums\mapgen\Cavegens\LavalandGenerator.dm"
@@ -5960,9 +5960,9 @@
 #include "monkestation\code\controllers\subsystem\profiler.dm"
 #include "monkestation\code\controllers\subsystem\stamina.dm"
 #include "monkestation\code\controllers\subsystem\vote.dm"
-#include "code/modules/shuttle/mobile_port/variants/custom/blueprints.dm"
-#include "code/modules/shuttle/mobile_port/variants/custom/custom.dm"
-#include "code/modules/shuttle/mobile_port/variants/custom/custom_consoles.dm"
+#include "code\modules\shuttle\mobile_port\variants\custom\blueprints.dm"
+#include "code\modules\shuttle\mobile_port\variants\custom\custom.dm"
+#include "code\modules\shuttle\mobile_port\variants\custom\custom_consoles.dm"
 #include "monkestation\code\datums\action.dm"
 #include "monkestation\code\datums\dna.dm"
 #include "monkestation\code\datums\emotes.dm"
